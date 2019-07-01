@@ -20,6 +20,8 @@ namespace Records
 		void displayCurrent();
 		void displayFormer();
 	protected:
-	
+		Employee mEmployees[kMaxEmployees];
+		int mNextSlot;
+		int mNextEmployeeNumber;
 	};
 }
