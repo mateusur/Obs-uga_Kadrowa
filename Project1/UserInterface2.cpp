@@ -67,7 +67,7 @@ int displayMenu()
 	cin >> selection;
 	return selection;
 }
-void doHire(Database& inDB);
+void doHire(Database& inDB)
 {
 	string firstName;
 	string lastName;
@@ -86,7 +86,7 @@ void doHire(Database& inDB);
 		cerr << "Dodanie nowego pracownika jest niemozliwe!" << endl;
 	}
 }
-void doFire(Database& inDB);
+void doFire(Database& inDB)
 {
 	int employeeNumber;
 	cout << "Numer pracownika? ";

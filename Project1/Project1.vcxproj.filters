@@ -29,7 +29,7 @@
     <ClCompile Include="Database.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DatabaseTest.cpp">
+    <ClCompile Include="UserInterface2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
